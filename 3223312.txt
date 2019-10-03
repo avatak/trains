@@ -1,0 +1,65 @@
+Graph on surface with 4 peripheral loops:
+Vertex number 1 with image vertex 2:
+Edges at vertex are: 1 -1 5 
+Region 1
+
+Vertex number 2 with image vertex 3:
+Edges at vertex are: 3 -3 7 
+Region 2
+
+Vertex number 3 with image vertex 4:
+Edges at vertex are: 4 -4 -6 
+Region 3
+
+Vertex number 4 with image vertex 1:
+Edges at vertex are: -2 6 -5 -7 2 
+Region 1
+
+Edge number 1 from vertex 1 to vertex 1:
+Type: Peripheral about puncture number 1
+Path (1 -> 1):  1 -1 
+
+
+Edge number 2 from vertex 4 to vertex 4:
+Type: Peripheral about puncture number 2
+Path (1 -> 1):  -2 2 
+
+
+Edge number 3 from vertex 2 to vertex 2:
+Type: Peripheral about puncture number 3
+Path (2 -> 2):  -3 3 
+
+
+Edge number 4 from vertex 3 to vertex 3:
+Type: Peripheral about puncture number 4
+Path (3 -> 3):  -4 4 
+
+
+Edge number 5 from vertex 1 to vertex 4:
+Type: Main
+Path (1 -> 1):  
+
+
+Edge number 6 from vertex 4 to vertex 3:
+Type: Main
+Path (1 -> 3):  2 3 
+
+
+Edge number 7 from vertex 2 to vertex 4:
+Type: Main
+Path (2 -> 1):  -2 
+
+
+Pseudo-Anosov Isotopy class
+Vertex 1:
+Gates are: {-1}, {5}, {1}
+Infinitesimal edges join 1 to 5, -1 to 5
+Vertex 2:
+Gates are: {-3}, {7}, {3}
+Infinitesimal edges join 3 to 7, -3 to 7
+Vertex 3:
+Gates are: {-4}, {-6}, {4}
+Infinitesimal edges join -6 to 4, -6 to -4
+Vertex 4:
+Gates are: {6, -5, -7}, {2}, {-2}
+Infinitesimal edges join 2 to 6, -2 to 6
